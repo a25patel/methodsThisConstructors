@@ -1,5 +1,6 @@
 function Taxi(driverName, maxNumberOfPassengers) {
-  // your code here
+  this.driverName= driverName;
+  this.maxNumberOfPassengers= maxNumberOfPassengers; 
 }
 
 Taxi.prototype.addPassenger = function(passengerName) {
